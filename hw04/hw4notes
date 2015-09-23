@@ -1,0 +1,139 @@
+if (cardOneNumber==1)
+        System.out.println("Ace");
+        else if (cardOneNumber==2)
+        System.out.println("2");
+        else if (cardOneNumber==3)
+        System.out.println("3");
+        else if (cardOneNumber==4)
+        System.out.println("4");
+        else if (cardOneNumber==5)
+        System.out.println("5");
+        else if (cardOneNumber==6)
+        System.out.println("6");
+        else if cardOneNumber==7)
+        System.out.println("7");
+        else if (cardOneNumber==8)
+        System.out.println("8");
+        else if (cardOneNumber==9)
+        System.out.println("9");
+        else if (cardOneNumber==10)
+        System.out.println("10");
+        else if (cardOneNumber==11)
+        System.out.println("Jack");
+        else if (cardOneNumber==12)
+        System.out.println("Queen");
+        else if (cardOneNumber==13)
+        System.out.println("King");
+        //java hw4 
+        //
+        if (cardOneType==1)
+        System.out.println("of Spades");
+        else if (cardOneType==2)
+        System.out.println("of Hearts");
+        else if (cardOneType==3)
+        System.out.println("of Diamonds");
+        else if (cardOneType==4)
+        System.out.println("of Clubs");
+        
+        import java.lang.Math; 
+import java.util.Random;
+
+public class PokerHandCheck {
+    //main method required for every Java program
+    public static void main(String[] args)  {
+        //
+        //ONE
+        int cardOneType = (int)(Math.random()*(4+1))+1;
+        
+        String[] cardOneValue = {"Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Jack","King","Ace"};
+        Random random = new Random();
+        int select = random.nextInt(cardOneValue.length);
+       
+       
+        //TWO
+        int cardTwoType = (int)(Math.random()*(4+1))+1;
+        
+        String[] cardTwoValue = {"Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Jack","King","Ace"};
+        Random random = new Random();
+        int select = random.nextInt(cardTwoValue.length);
+        
+        
+        //THREE
+        int cardThreeType = (int)(Math.random()*(4+1))+1;
+        
+        String[] cardThreeValue = {"Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Jack","King","Ace"};
+        Random random = new Random();
+        int select = random.nextInt(cardThreeValue.length);
+        
+        
+        //FOUR
+        int cardFourType = (int)(Math.random()*(4+1))+1;
+        
+        String[] cardFourValue = {"Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Jack","King","Ace"};
+        Random random = new Random();
+        int select = random.nextInt(cardFourValue.length);
+        
+        //FIVE
+        int cardFiveType = (int)(Math.random()*(4+1))+1;
+        
+        String[] cardFiveValue = {"Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Jack","King","Ace"};
+        Random random = new Random();
+        int select = random.nextInt(cardFiveValue.length);
+        
+        
+        //
+        //
+        
+        
+        //
+        //CASE AND PRINT ONE
+        if (cardOneType==1)
+        System.out.println(cardOneValue[select]+" of Spades");
+        else if (cardOneType==2)
+        System.out.println(cardOneValue[select]+" of Hearts");
+        else if (cardOneType==3)
+        System.out.println(cardOneValue[select]+" of Diamonds");
+        else if (cardOneType==4)
+        System.out.println(cardOneValue[select]+" of Clubs"); 
+        
+        //CASE AND PRINT TWO
+        if (cardTwoType==1)
+        System.out.println(cardOneValue[select]+" of Spades");
+        else if (cardTwoType==2)
+        System.out.println(cardOneValue[select]+" of Hearts");
+        else if (cardTwoType==3)
+        System.out.println(cardOneValue[select]+" of Diamonds");
+        else if (cardTwoType==4)
+        System.out.println(cardOneValue[select]+" of Clubs"); 
+        
+        //CASE AND PRINT THREE
+        if (cardOneType==1)
+        System.out.println(cardOneValue[select]+" of Spades");
+        else if (cardOneType==2)
+        System.out.println(cardOneValue[select]+" of Hearts");
+        else if (cardOneType==3)
+        System.out.println(cardOneValue[select]+" of Diamonds");
+        else if (cardOneType==4)
+        System.out.println(cardOneValue[select]+" of Clubs"); 
+        
+        //CASE AND PRINT FOUR
+        if (cardOneType==1)
+        System.out.println(cardOneValue[select]+" of Spades");
+        else if (cardOneType==2)
+        System.out.println(cardOneValue[select]+" of Hearts");
+        else if (cardOneType==3)
+        System.out.println(cardOneValue[select]+" of Diamonds");
+        else if (cardOneType==4)
+        System.out.println(cardOneValue[select]+" of Clubs"); 
+        
+        //CASE AND PRINT FIVE
+        if (cardOneType==1)
+        System.out.println(cardOneValue[select]+" of Spades");
+        else if (cardOneType==2)
+        System.out.println(cardOneValue[select]+" of Hearts");
+        else if (cardOneType==3)
+        System.out.println(cardOneValue[select]+" of Diamonds");
+        else if (cardOneType==4)
+        System.out.println(cardOneValue[select]+" of Clubs"); 
+    }
+}
