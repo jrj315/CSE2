@@ -34,13 +34,14 @@ public class CSE2Linear{//main method
                     System.out.println(search+"was found within the array and "+i+"comparisons were made");
                     
                 }
-                if (i==15){//if no match scramble grades array and continue to next search input
-                    System.out.println(search+"was not found within the grades entered");//let user know it was not found
-                    scramble(grades);
-                    printArray(grades);
+                
+            }
+            if (i==15){//if no match scramble grades array and continue to next search input
+                System.out.println(search+"was not found within the grades entered");//let user know it was not found
+                scramble(grades);
+                printArray(grades);
                     
                     
-                }
             }
         }   
     }
